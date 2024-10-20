@@ -1,0 +1,57 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(66, 66, 66);
+    margin-left: 15px;
+    padding: 0px;
+}
+
+:root{
+    --font :white;
+}
+
+h3{
+    color:var(--font)
+}
+
+.Port{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    flex: row;
+    gap: 20px;
+    margin-right: 20px;
+    color:var(--font)
+}
+
+h4 span{
+    color: rgb(120, 206, 255);
+}
+
+.Aboutme{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+}
+
+.Intro p span{
+    color: rgb(120, 206, 255);
+}
+
+.profile{
+    margin-right: 20px;
+    width: 150px;
+    height: auto;
+}
+
+a{
+    background-color: #4accff;
+    padding: 5px;
+    border-radius: 20px;
+}
+
